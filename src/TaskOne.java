@@ -22,7 +22,7 @@ public class TaskOne {
     theEquation.b = in.nextDouble();
     System.out.print("Input value c: ");
     theEquation.c = in.nextDouble();
-    theEquation.calculate();
+    theEquation.calculate();//функция вычесления основного ровнения
 	in.close();
 	}
 
