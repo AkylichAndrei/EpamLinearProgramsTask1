@@ -2,6 +2,9 @@
 **Ссылка для скачивания:**
 [Practice (tasks).pdf](https://github.com/AkylichAndrei/EpamLinearProgramsTask1/files/8647159/Practice.tasks.pdf)
 
+**Вопросы по теории**
+[Questions.pdf](https://github.com/AkylichAndrei/EpamLinearProgramsTask1/files/8662564/Questions.pdf)
+
 **Линейный программы**
 1. Найдите значение функции: z = ( (a – 3 ) * b / 2) + c.
 2. Вычислить значение выражения по формуле (все переменные принимают действительные значения):
