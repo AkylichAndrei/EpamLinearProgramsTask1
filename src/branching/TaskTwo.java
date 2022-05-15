@@ -1,6 +1,7 @@
 package branching;
-
 import java.util.Scanner;
+
+// Найти max{min(a, b), min(c, d)}.
 
 public class TaskTwo {
 	double a,b,c,d ;

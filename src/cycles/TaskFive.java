@@ -7,7 +7,7 @@ public class TaskFive {
 	
 	
 	void outputOnDisplay() {
-		i = 1; //по формуле начинаем с первого элемента
+		i = 1; //РїРѕ С„РѕСЂРјСѓР»Рµ РЅР°С‡РёРЅР°РµРј СЃ РїРµСЂРІРѕРіРѕ СЌР»РµРјРµРЅС‚Р°
     while( i <= n ){
     	if((( Math.abs( 1 / Math.pow( 2 , i )) + ( 1 / Math.pow( 3 , i ))) >= e ))
         sum += (1/Math.pow(2 , i)) + (1/Math.pow(3 , i));

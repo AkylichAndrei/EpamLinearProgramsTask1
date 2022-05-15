@@ -1,6 +1,7 @@
 package cycles;
-
 import java.util.Scanner;
+
+// Даны два числа. Определить цифры, входящие в запись как первого так и второго числа
 
 public class TaskEight {
 	String str1,str2,str3;
@@ -10,7 +11,6 @@ public class TaskEight {
 	char[ ] chArray3 = new char[ 10 ];
 	
 	void outputOnDisplay() {
-		
 		str1 = Integer.toString ( m ); 
 		char[ ] chArray1 = str1.toCharArray();
 		str2 = Integer.toString ( n ); 
@@ -28,12 +28,11 @@ public class TaskEight {
 		  		} 
 		  	}  
 		}
-		if(flag==false) {
-			chArray3[t]=ch;
-			t++;
-			flag=true;
-		}
-		
+			if(flag==false) {
+				chArray3[t]=ch;
+				t++;
+				flag=true;
+			}
 		}
 		System.out.println(" Result : ");
 		for(int x = 0 ; x < chArray3.length; x++)
@@ -41,7 +40,6 @@ public class TaskEight {
 		}
 
 	public static void main(String[] args) {
-	
 		TaskEight myTaskEight = new TaskEight();
 		Scanner in = new Scanner(System.in);
 		System.out.println("input number m: ");
@@ -51,5 +49,4 @@ public class TaskEight {
 		myTaskEight.outputOnDisplay();   	 
 		in.close();
 	}
-
 }

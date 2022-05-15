@@ -1,11 +1,10 @@
 package cycles;
 
-
+// Найти сумму квадратов первых ста чисел.
 
 public class TaskThree {
 	double sum;
 	double i;
-		
 		void outputOnDisplay() {
 		for(i = 1; i <= 100; i++) {
 			sum += Math.pow( i , 2 );
@@ -13,10 +12,8 @@ public class TaskThree {
 		}
 		}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		TaskThree myTaskThree = new TaskThree();
 		 myTaskThree.outputOnDisplay();
-	   
 	}
 
 }

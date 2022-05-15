@@ -1,5 +1,6 @@
-
 import java.util.Scanner;
+
+//РќР°Р№РґРёС‚Рµ Р·РЅР°С‡РµРЅРёРµ С„СѓРЅРєС†РёРё: z = ( (a вЂ“ 3 ) * b / 2) + c
 
 public class TaskOne {
 	double a;
@@ -14,7 +15,7 @@ public class TaskOne {
 	
 	public static void main(String[] args) {
 	System.out.println("Math example: z=((a-3)*b/2)+c ");
-	TaskOne theEquation = new TaskOne();//создание обьекта theEquation(уравнение)
+	TaskOne theEquation = new TaskOne();//пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅ theEquation(пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ)
 	Scanner in = new Scanner(System.in);
     System.out.print("Input value a: ");
     theEquation.a = in.nextDouble();	
@@ -22,7 +23,7 @@ public class TaskOne {
     theEquation.b = in.nextDouble();
     System.out.print("Input value c: ");
     theEquation.c = in.nextDouble();
-    theEquation.calculate();//функция вычесления основного ровнения
+    theEquation.calculate();//пїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ пїЅпїЅпїЅпїЅпїЅпїЅпїЅпїЅ
 	in.close();
 	}
 

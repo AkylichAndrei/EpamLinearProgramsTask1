@@ -1,5 +1,7 @@
 package cycles;
 
+// Составить программу нахождения произведения квадратов первых двухсот чисел.
+
 public class TaskFour {
 	double sum;
 	double i;
@@ -12,7 +14,6 @@ public class TaskFour {
 			}
 		}
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		TaskFour myTaskFour = new TaskFour();
 		 myTaskFour.outputOnDisplay();
 	}

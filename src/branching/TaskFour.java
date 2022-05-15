@@ -1,13 +1,13 @@
 package branching;
-
 import java.util.Scanner;
+
+// Заданы размеры А, В прямоугольного отверстия и размеры х, у, z кирпича. 
+// Определить, пройдет ли кирпич через отверстие.
 
 public class TaskFour {
 int a , b , x , y , z;
-	
 	int[] intArray;
 	void outputOnDisplay() {
-		
 		intArray = new int[3];
 		intArray[ 0 ] = x;
 		intArray[ 1 ] = y;
@@ -19,13 +19,11 @@ int a , b , x , y , z;
 				intArray[ i ] = intArray[ i + 1 ];
 				intArray[ i + 1 ] = mn;
 			}
-				
 		if(( Math.min( a , b )) > ( Math.min( intArray[ 0 ] , intArray[ 1 ])) & 
 				( Math.max( a , b)) > ( Math.max( intArray[ 0 ] , intArray[ 0 ] )))	{
 			System.out.println("Result : true! ");
 		}
 		else System.out.println("Result : false! ");
-	
 		}
 	public static void main(String[] args) {
 		TaskFour myTaskFour = new TaskFour();
@@ -42,8 +40,6 @@ int a , b , x , y , z;
 		myTaskFour.z = in.nextInt();	  
 	    myTaskFour.outputOnDisplay();
 	    in.close();
-		
-
 	}
 
 }
