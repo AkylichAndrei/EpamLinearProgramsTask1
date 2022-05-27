@@ -6,8 +6,7 @@ int x,y;
 boolean bol;
 	
 	void outputOnDisplay() {
-		
-		bol=false;
+		bol = false;
 		if (( y >= 1 ) & ( y <= 4 ) & ( x <= 1 ) & ( x >= -2 ))
 			bol = true;
 		if (( y >= 1 ) & ( y <= 4 ) & ( x >= 1 ) & ( x <= 2 ))
@@ -21,8 +20,6 @@ boolean bol;
 		}
 
 	public static void main(String[] args) {
-		
-		
 		TaskSix myTaskSix = new TaskSix();
 		System.out.println("Input x:  ");
 		Scanner in = new Scanner(System.in);
@@ -31,8 +28,5 @@ boolean bol;
 	    myTaskSix.y = in.nextInt();	
 	    myTaskSix.outputOnDisplay();
 	    in.close();
-	  
-
 	}
-
 }

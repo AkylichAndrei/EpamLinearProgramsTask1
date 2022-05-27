@@ -7,12 +7,11 @@ public class TaskTwo {
 	double a,b,c,d ;
 	boolean bol;
 		
-		void outputOnDisplay() {
-			System.out.println(" Result : " + Math.max( Math.min( a , b ) , Math.min( c , d ))); 
-		
-			}
+	void outputOnDisplay() {
+		System.out.println(" Result : " + Math.max( Math.min( a , b ) , Math.min( c , d ))); 
+	}
+	
 	public static void main(String[] args) {
-		
 		TaskTwo myTaskTwo = new TaskTwo();
 		System.out.println("Input a:  ");
 		Scanner in = new Scanner(System.in);

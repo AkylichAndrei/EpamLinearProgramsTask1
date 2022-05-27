@@ -20,8 +20,8 @@ int a , b , x , y , z;
 				intArray[ i + 1 ] = mn;
 			}
 		if(( Math.min( a , b )) > ( Math.min( intArray[ 0 ] , intArray[ 1 ])) & 
-				( Math.max( a , b)) > ( Math.max( intArray[ 0 ] , intArray[ 0 ] )))	{
-			System.out.println("Result : true! ");
+			( Math.max( a , b)) > ( Math.max( intArray[ 0 ] , intArray[ 0 ] )))	{
+		System.out.println("Result : true! ");
 		}
 		else System.out.println("Result : false! ");
 		}

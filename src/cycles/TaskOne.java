@@ -5,11 +5,11 @@ import java.util.Scanner;
 // А программа суммирует все числа от 1 до введенного пользователем числа.
 
 public class TaskOne {
-	int x , sum;
-	int i;
+	int x , sum, i;
+	
 		void outputOnDisplay() {
 		for( i = 0 ; i <= x ; i++ )
-			sum += i;
+		sum += i;
 		System.out.println("Result : "+ sum);
 		}
 

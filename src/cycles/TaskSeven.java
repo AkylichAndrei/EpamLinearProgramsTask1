@@ -12,16 +12,15 @@ int m,n,number,i,j;
 		System.out.println(" number  " + j + "  = ");
 		number = j;
 	for (i = 2; i <= number; i++) {
-			if (number % i == 0) {
-				System.out.print(i + "  ");
-				number = number / i;
+		if (number % i == 0) {
+		System.out.print(i + "  ");
+		number = number / i;
 		}
 	  }
 	System.out.println(" ");
 	}
 	}
 	public static void main(String[] args) {
-		
 		TaskSeven myTaskSeven = new TaskSeven();
 		Scanner in = new Scanner(System.in);
 		System.out.println("input number m: ");

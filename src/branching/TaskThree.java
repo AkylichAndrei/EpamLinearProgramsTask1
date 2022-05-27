@@ -15,7 +15,6 @@ public class TaskThree {
 		}
 	
 	public static void main(String[] args) {
-			
 			TaskThree myTaskThree = new TaskThree();
 			System.out.println("Input x1:  ");
 			Scanner in = new Scanner(System.in);
@@ -33,5 +32,4 @@ public class TaskThree {
 		    myTaskThree.outputOnDisplay();
 		    in.close();
 	}
-
 }
