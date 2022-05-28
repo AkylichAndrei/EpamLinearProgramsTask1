@@ -25,10 +25,10 @@ boolean bol;
 		TaskSix myTaskSix = new TaskSix();
 		System.out.println("Input x:  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskSix.x = in.nextInt();	  
-	    System.out.println("Input y:  ");
-	    myTaskSix.y = in.nextInt();	
-	    myTaskSix.outputOnDisplay();
-	    in.close();
+		myTaskSix.x = in.nextInt();	  
+		System.out.println("Input y:  ");
+		myTaskSix.y = in.nextInt();	
+		myTaskSix.outputOnDisplay();
+		in.close();
 	}
 }

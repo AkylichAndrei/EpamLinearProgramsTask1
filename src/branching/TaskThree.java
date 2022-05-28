@@ -22,7 +22,7 @@ public class TaskThree {
 		System.out.println("Input y1:  ");
 		myTaskThree.y1 = in.nextInt();	
 		System.out.println("Input x2:  ");
-	    myTaskThree.x2 = in.nextInt();	  
+		myTaskThree.x2 = in.nextInt();	  
 		System.out.println("Input y2:  ");
 		myTaskThree.y2 = in.nextInt();
 		System.out.println("Input x3:  ");

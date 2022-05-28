@@ -17,10 +17,10 @@ public class TaskFive {
 	public static void main(String[] args) {
 		TaskFive myTaskFive = new TaskFive();
 		Scanner in = new Scanner(System.in);
-	    System.out.print("Input T: ");
-	    myTaskFive.t = in.nextInt();
-	    myTaskFive.calculate();
-	    in.close();
+		System.out.print("Input T: ");
+		myTaskFive.t = in.nextInt();
+		myTaskFive.calculate();
+		in.close();
 	}
 
 }

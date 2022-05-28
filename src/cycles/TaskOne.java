@@ -17,9 +17,9 @@ public class TaskOne {
 		TaskOne myTaskOne = new TaskOne();
 		System.out.println("Input number :  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskOne.x = in.nextInt();	  
-	    myTaskOne.outputOnDisplay();
-	    in.close();
+		myTaskOne.x = in.nextInt();	  
+		myTaskOne.outputOnDisplay();
+		in.close();
 	}
 
 }

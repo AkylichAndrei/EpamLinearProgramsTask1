@@ -15,14 +15,14 @@ public class TaskTwo {
 		TaskTwo myTaskTwo = new TaskTwo();
 		System.out.println("Input a:  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskTwo.a = in.nextDouble();	  
-	    System.out.println("Input b:  ");
-	    myTaskTwo.b = in.nextDouble();	
-	    System.out.println("Input c:  ");
+		myTaskTwo.a = in.nextDouble();	  
+		System.out.println("Input b:  ");
+		myTaskTwo.b = in.nextDouble();	
+		System.out.println("Input c:  ");
 		myTaskTwo.c = in.nextDouble();	  
-	    System.out.println("Input d:  ");
-	    myTaskTwo.d = in.nextDouble();
-	    myTaskTwo.outputOnDisplay();
-	    in.close();
+		System.out.println("Input d:  ");
+		myTaskTwo.d = in.nextDouble();
+		myTaskTwo.outputOnDisplay();
+		in.close();
 	}
 }

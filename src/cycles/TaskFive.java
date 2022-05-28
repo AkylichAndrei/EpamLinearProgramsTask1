@@ -21,10 +21,10 @@ public class TaskFive {
 		TaskFive myTaskFive = new TaskFive();
 		System.out.println("Input n :  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskFive.n = in.nextDouble();	 
-	    System.out.println("Input e :  ");
+		myTaskFive.n = in.nextDouble();	 
+		System.out.println("Input e :  ");
 		myTaskFive.e = in.nextDouble();	 
-	    myTaskFive.outputOnDisplay();
-	    in.close();
+		myTaskFive.outputOnDisplay();
+		in.close();
 	}
 }

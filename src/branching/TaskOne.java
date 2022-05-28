@@ -29,10 +29,10 @@ public class TaskOne {
 		TaskOne myTaskOne = new TaskOne();
 		System.out.println("Enter the angle of the triangle №1:  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskOne.x = in.nextInt();	  
-	    System.out.println("Enter the angle of the triangle №2:  ");
-	    myTaskOne.y = in.nextInt();	
-	    myTaskOne.outputOnDisplay();
-	    in.close();
+		myTaskOne.x = in.nextInt();	  
+		System.out.println("Enter the angle of the triangle №2:  ");
+		myTaskOne.y = in.nextInt();	
+		myTaskOne.outputOnDisplay();
+		in.close();
 	}
 }

@@ -31,17 +31,17 @@ int a , b , x , y , z;
 		TaskFour myTaskFour = new TaskFour();
 		System.out.println("Input A:  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskFour.a = in.nextInt();	  
-	    System.out.println("Input B:  ");
-	    myTaskFour.b = in.nextInt();	
-	    System.out.println("Input x:  ");
+		myTaskFour.a = in.nextInt();	  
+		System.out.println("Input B:  ");
+		myTaskFour.b = in.nextInt();	
+		System.out.println("Input x:  ");
 		myTaskFour.x = in.nextInt();	  
-	    System.out.println("Input y:  ");
-	    myTaskFour.y = in.nextInt();
-	    System.out.println("Input z:  ");
+		System.out.println("Input y:  ");
+		myTaskFour.y = in.nextInt();
+		System.out.println("Input z:  ");
 		myTaskFour.z = in.nextInt();	  
-	    myTaskFour.outputOnDisplay();
-	    in.close();
+		myTaskFour.outputOnDisplay();
+		in.close();
 	}
 
 }

@@ -23,12 +23,12 @@ public class TaskTwo {
 		TaskTwo myTaskTwo = new TaskTwo();
 		System.out.println("Input a :  ");
 		Scanner in = new Scanner(System.in);
-	    myTaskTwo.a = in.nextInt();	 
-	    System.out.println("Input b :  ");
-	    myTaskTwo.b = in.nextInt();
-	    System.out.println("Input h :  ");
-	    myTaskTwo.h = in.nextInt();
-	    myTaskTwo.outputOnDisplay();
-	    in.close();
+		myTaskTwo.a = in.nextInt();	 
+		System.out.println("Input b :  ");
+		myTaskTwo.b = in.nextInt();
+		System.out.println("Input h :  ");
+		myTaskTwo.h = in.nextInt();
+		myTaskTwo.outputOnDisplay();
+		in.close();
 	}
 }

@@ -23,8 +23,8 @@ public class TaskFour{
 		System.out.println("Enter view number R: nnn.ddd ");
 		TaskFour myTaskFour = new TaskFour();
 		Scanner in = new Scanner(System.in);
-	    myTaskFour.str = in.nextLine();	  
-	    myTaskFour.outputOnDisplay();
-	    in.close();
+		myTaskFour.str = in.nextLine();	  
+		myTaskFour.outputOnDisplay();
+		in.close();
 	}
 }
