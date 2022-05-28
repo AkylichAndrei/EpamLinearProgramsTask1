@@ -5,21 +5,22 @@ import java.util.Scanner;
 // кроме единицы и самого числа. m и n вводятся с клавиатуры.
 
 public class TaskSeven {
-int m,n,number,i,j;
-	void outputOnDisplay() {
+	int m,n,number,i,j;
 	
-	for( j = m ; j <= n ; j++ ) {
-		System.out.println(" number  " + j + "  = ");
-		number = j;
-	for (i = 2; i <= number; i++) {
-		if (number % i == 0) {
-		System.out.print(i + "  ");
-		number = number / i;
+	void outputOnDisplay() {
+		for( j = m ; j <= n ; j++ ) {
+			System.out.println(" number  " + j + "  = ");
+			number = j;
+			for (i = 2; i <= number; i++) {
+				if (number % i == 0) {
+					System.out.print(i + "  ");
+					number = number / i;
+				}
+			}
+		System.out.println(" ");
 		}
-	  }
-	System.out.println(" ");
 	}
-	}
+	
 	public static void main(String[] args) {
 		TaskSeven myTaskSeven = new TaskSeven();
 		Scanner in = new Scanner(System.in);

@@ -13,18 +13,20 @@ int a , b , x , y , z;
 		intArray[ 1 ] = y;
 		intArray[ 2 ] = z;
 		int mn;
+		
 		for(int i=0; i < 2 ; i++) 
 			if(intArray[ i ] > intArray[ i+1 ]) {
 				mn = intArray[ i ];
 				intArray[ i ] = intArray[ i + 1 ];
 				intArray[ i + 1 ] = mn;
 			}
+		
 		if(( Math.min( a , b )) > ( Math.min( intArray[ 0 ] , intArray[ 1 ])) & 
-			( Math.max( a , b)) > ( Math.max( intArray[ 0 ] , intArray[ 0 ] )))	{
-		System.out.println("Result : true! ");
+				( Math.max( a , b)) > ( Math.max( intArray[ 0 ] , intArray[ 0 ] )))	{
+			System.out.println("Result : true! ");
 		}
 		else System.out.println("Result : false! ");
-		}
+	}
 	public static void main(String[] args) {
 		TaskFour myTaskFour = new TaskFour();
 		System.out.println("Input A:  ");

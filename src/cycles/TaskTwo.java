@@ -5,19 +5,20 @@ import java.util.Scanner;
 public class TaskTwo {
 	int a , b , h , y , x, i;
 		
-		void outputOnDisplay() {
+	void outputOnDisplay() {
 		for( i = a ; i <= b ; i+=h ) {
-		x = i;
-		if( x > 2) { 
-		y = Math.abs(x);
-		System.out.println(" y = :  " + y );
+			x = i;
+			
+			if( x > 2) { 
+				y = Math.abs(x);
+				System.out.println(" y = :  " + y );
+			}
+			if( x <= 2) {
+				y = x * - 1;
+				System.out.println(" y = :  " + y);
+			}
 		}
-		if( x <= 2) {
-		y = x * - 1;
-		System.out.println(" y = :  " + y);
-		}
-		}
-		}
+	}
 	public static void main(String[] args) {
 		TaskTwo myTaskTwo = new TaskTwo();
 		System.out.println("Input a :  ");
@@ -29,7 +30,5 @@ public class TaskTwo {
 	    myTaskTwo.h = in.nextInt();
 	    myTaskTwo.outputOnDisplay();
 	    in.close();
-
 	}
-
 }

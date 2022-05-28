@@ -3,6 +3,7 @@ import static java.lang.Math.*;
 
 public class TaskThree {
 	double x, y, z;
+	
 	void calculate() {
 		z = ((sin( x ) + cos( y )) / (cos( x ) - sin( y )) * tan(x * y));
 		System.out.println(" z =" + z);

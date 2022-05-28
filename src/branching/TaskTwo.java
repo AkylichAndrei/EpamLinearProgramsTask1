@@ -24,7 +24,5 @@ public class TaskTwo {
 	    myTaskTwo.d = in.nextDouble();
 	    myTaskTwo.outputOnDisplay();
 	    in.close();
-		
 	}
-
 }

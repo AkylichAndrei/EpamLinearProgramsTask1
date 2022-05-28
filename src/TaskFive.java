@@ -9,9 +9,9 @@ public class TaskFive {
 	int t;
 	int a,b,c;
 	void calculate() {
-		hour=t/60/60;
-		min=(t/60)-(hour*60);
-		sek=t-(hour*60*60)-(min*60);
+		hour = t / 60 / 60;
+		min = (t / 60) - (hour * 60);
+		sek = t - (hour * 60 * 60) - (min * 60);
 		System.out.println(" Result : "+hour +" Hour | " + min + " Minutes |" + sek +  " Seconds " );
 	}
 	public static void main(String[] args) {

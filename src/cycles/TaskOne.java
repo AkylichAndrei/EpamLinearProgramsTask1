@@ -7,11 +7,11 @@ import java.util.Scanner;
 public class TaskOne {
 	int x , sum, i;
 	
-		void outputOnDisplay() {
+	void outputOnDisplay() {
 		for( i = 0 ; i <= x ; i++ )
 		sum += i;
 		System.out.println("Result : "+ sum);
-		}
+	}
 
 	public static void main(String[] args) {
 		TaskOne myTaskOne = new TaskOne();
